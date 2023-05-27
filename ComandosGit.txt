@@ -5,6 +5,8 @@ git config --global user.name
 git config --global user.email "i.infante.dacruz@outlook.com" 
 git config --global user.email 
 
+git clone URL
+
 /*Primera vez de asociación al Git - Ejecución dentro de la carpeta*/ 
 git init 
 
@@ -17,13 +19,19 @@ git commit -m "description"
 git remote add origin https://github.com/coquilson1/TestGit.git
 git remote -v //Ver mi repositorio remoto
 
-git branch //Ver en qué rama estoy internamente 
+git branch //Lista de ramas y Ver en qué rama estoy internamente 
+git branch nombre_rama --> Creación de rama
+git branch -m nombre_rama nombre_rama_cambiado --> Pra cambiar nombre de rama
+git checkout nombre_rama_cambiado --> paso de la rama actual a la rama especificada en nombre_rama_cambiado
+git branch -d nombre_rama_cambiado --> borrar la rama / Condición: no estar parada en esta
 
 //Primera vez que realizo Push, con esto creo la rama en el remoto
 git push --set-upstream origin main 
 
 //A partir del segundo push
 git push 
+git push origin dev --> especifico a que rama en el remoto haré el push
+
 
 //traer cambios del remoto
 git fetch origin
