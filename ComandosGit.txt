@@ -24,3 +24,18 @@ git push --set-upstream origin main
 
 //A partir del segundo push
 git push 
+
+//traer cambios del remoto
+git fetch origin
+
+//git checkout
+--> Tar: git merge
+//git pull
+
+
+----> Tar. Change Branch
+
+
+
+
+
