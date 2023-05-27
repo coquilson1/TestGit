@@ -1,1 +1,26 @@
 Prueba
+/*Primera Vez en General*/
+git config --global user.name "coquilson1"
+git config --global user.name
+git config --global user.email "i.infante.dacruz@outlook.com" 
+git config --global user.email 
+
+/*Primera vez de asociación al Git - Ejecución dentro de la carpeta*/ 
+git init 
+
+//Para agregar los cambios a la zona interna
+git add .
+git commit -m "description" 
+
+/*Primera vez para asociar el repositorio*/
+0.0 Crear repositorio en GitHub
+git remote add origin https://github.com/coquilson1/TestGit.git
+git remote -v //Ver mi repositorio remoto
+
+git branch //Ver en qué rama estoy internamente 
+
+//Primera vez que realizo Push, con esto creo la rama en el remoto
+git push --set-upstream origin main 
+
+//A partir del segundo push
+git push 
