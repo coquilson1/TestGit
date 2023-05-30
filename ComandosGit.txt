@@ -38,7 +38,7 @@ git fetch origin
 
 //git checkout
 --> Tar: git merge
-//git pull
+//git pull origin dev
 
 
 ----> Tar. Change Branch
