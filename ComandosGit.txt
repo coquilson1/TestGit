@@ -25,6 +25,8 @@ git branch -m nombre_rama nombre_rama_cambiado --> Pra cambiar nombre de rama
 git checkout nombre_rama_cambiado --> paso de la rama actual a la rama especificada en nombre_rama_cambiado
 git branch -d nombre_rama_cambiado --> borrar la rama / Condición: no estar parada en esta
 
+git checkout fd05d76 .
+
 //Primera vez que realizo Push, con esto creo la rama en el remoto
 git push --set-upstream origin main 
 
